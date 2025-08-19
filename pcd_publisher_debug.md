@@ -97,7 +97,7 @@ UnicodeDecodeError: 'ascii' codec can't decode byte 0xc8 in position 253
 在 `create_writer` 时修改：
 ```python
 writer = node.create_writer("/apollo/sensor/mid360/PointCloud",
-                            pointcloud_pb2.PointCloud)
+pointcloud_pb2.PointCloud)
 ```
 
 ---
